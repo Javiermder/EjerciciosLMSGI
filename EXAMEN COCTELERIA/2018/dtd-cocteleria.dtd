@@ -1,0 +1,16 @@
+<!ELEMENT cocteleria (bebidas)>
+<!ELEMENT bebidas (con, sin)>
+<!ELEMENT con (roncola, gyntonic)>
+<!ELEMENT roncola (ingredientes)>
+<!ELEMENT gyntonic (ingredientes)>
+<!ELEMENT ingredientes (alcohol, refresco, fruta?)>
+<!ELEMENT alcohol (#PCDATA)>
+<!ELEMENT refresco (#PCDATA)>
+<!ELEMENT fruta (#PCDATA)>
+<!ELEMENT sin ANY>
+<!ATTLIST cocteleria direccion CDATA #IMPLIED 
+                      nombre CDATA #REQUIRED
+                      telefono CDATA #FIXED "957525789">
+<!ENTITY % atributoCoste "coste CDATA #IMPLIED"> 
+<!ATTLIST roncola %atributoCoste;>
+<!ATTLIST gyntonic %atributoCoste;>

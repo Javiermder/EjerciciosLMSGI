@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cocteleria SYSTEM "dtd-cocteleria.dtd">
+<cocteleria direccion="Plaza Nueva" nombre="LACoctail" telefono="957525789">
+   <bebidas>
+    <con>
+        <roncola coste = "5">
+            <ingredientes>
+                <alcohol>Ron</alcohol>
+                <refresco>Cocacola</refresco>
+                <fruta>si</fruta>
+            </ingredientes>
+        </roncola>
+        <gyntonic coste = "5">
+            <ingredientes> 
+                <alcohol>Lariosa</alcohol>
+                <refresco>Tonica</refresco>
+            </ingredientes> 
+        </gyntonic>
+
+    </con>
+    <sin>
+
+    </sin>
+   </bebidas>
+</cocteleria>
